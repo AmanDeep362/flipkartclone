@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f1f3f6;
+}
+header {
+  height: 56px;
+  background-color: #2874f0;
+}
+.logo {
+  height: 56px;
+  display: flex;
+}
+.logo img {
+  width: 124px;
+  height: 49px;
+  margin-left: 200px;
+  margin-top: 4px;
+}
+.searchbox {
+  display: flex;
+  width: 35%;
+  background-color: white;
+  height: 63%;
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 3%;
+  border-radius: 3%;
+}
+#searchbar {
+  border: none;
+  width: 84%;
+}
+#searchbtn {
+  align-items: center;
+  display: flex;
+  padding: 0%;
+  color: #2874f0;
+}
+.loginbtn {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 9%;
+  height: 57%;
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 4%;
+  padding: 0%;
+  border-radius: 3px;
+}
+.loginbtn a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #2874f0;
+  font-weight: bold;
+}
+.cart {
+  color: white;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
+  font-size: 150%;
+}
+.loginbtn a:hover {
+  font-size: large;
+}
+.cart:hover {
+  color: #f1f3f6;
+  font-size: 160%;
+  cursor: pointer;
+}
+main {
+  width: 100%;
+  height: 60%;
+}
+.container1 {
+  display: flex;
+  background-color: white;
+  width: 1091px;
+  height: 110px;
+}
+.par1 {
+  margin-left: 14%;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.product a {
+  text-decoration: none;
+}
+.product a img {
+  width: 66%;
+}
+.product a img:hover{
+  width: 70%;
+}
+.par1:hover {
+  color: #2874f0;
+}
+.container2 {
+  width: 95%;
+  height: 204px;
+  background-color: white;
+  margin: 2% auto;
+}
+
+.container2 img {
+  width: 100%;
+  height: 204px;
+}
+/* .container2 img:hover{
+  height: 230px;
+  width: 110%;
+} */
+
+.container3 {
+  width: 95%;
+  height: 204px;
+  background-color: white;
+  margin: 2% auto;
+}
+.container3 h2 {
+  display: inline-block;
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 13px;
+}
+.container3 a {
+  text-decoration: none;
+  background-color: #2874f0;
+  width: 72px;
+  display: inline-block;
+  height: 29px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 6%;
+  float: right;
+  margin: 8px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 3px;
+}
+.linebreak{
+  margin-top: 24px;
+height: 0.1px;
+color: #f1f3f6;
+}
+.box{
+  display: flex;
+  width: 97%;
+  height: 142px;
+  background-color: white;
+}
+.product1{
+  width: 22%;
+}
+.product1 img{
+  width: 63%;
+margin-left: 16%;
+margin-top: 9px;
+margin-bottom: 7%;
+}
+.par2{
+  margin-left: 34%;
+}
+.product1 img:hover{
+  width: 70%;
+}
+.par2:hover{
+  color: #2874f0;
+}
+.kettleimg{
+  width: 1%;
+margin-left: 35%;
+}
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.fotter{
+  width: 100%;
+  height: 60px;
+background-color: #172337;
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+font-weight: 100;
+letter-spacing: 0.095em;
+line-height: 1;
+}
